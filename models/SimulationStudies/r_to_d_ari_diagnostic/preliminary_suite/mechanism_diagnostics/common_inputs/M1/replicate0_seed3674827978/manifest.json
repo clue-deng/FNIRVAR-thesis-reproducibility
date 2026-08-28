@@ -1,0 +1,41 @@
+{
+  "replicate": 0,
+  "structural_seed": 3674827978,
+  "dgp_config": {
+    "N": 100,
+    "K_true_B": 4,
+    "p_in": 0.9,
+    "p_out": 0.1,
+    "VAR_spectral_radius_target": 0.9,
+    "symmetrize_phi": false,
+    "global_noise": 1.0,
+    "T_used_for_construction": 3000,
+    "Q": 1
+  },
+  "seed_derivation": {
+    "MASTER_SEED": 20260727,
+    "top_child_index": 0,
+    "network_rs_spawn_index": 0,
+    "spawn_order": [
+      "network",
+      "factor",
+      "gmm"
+    ]
+  },
+  "phi_shape": [
+    100,
+    100
+  ],
+  "phi_dtype": "float64",
+  "omega_shape": [
+    100,
+    100
+  ],
+  "omega_dtype": "float64",
+  "phi_spectral_radius_actual": 0.9310466043855566,
+  "phi_spectral_radius_target": 0.9,
+  "sha256": {
+    "phi.npy": "d59371576c8b5e335b296bb872ed21019dd46f6011e4fb6425d9bf47591092f8",
+    "omega.npy": "87e112dfa369f4b1cfac731ab346751ddecdc482e1d542428b0bb257957b01a6"
+  }
+}

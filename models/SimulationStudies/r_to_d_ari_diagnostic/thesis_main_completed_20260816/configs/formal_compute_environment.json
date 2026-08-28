@@ -1,0 +1,11 @@
+{
+  "parallel_processes": 4,
+  "OPENBLAS_NUM_THREADS": 1,
+  "OMP_NUM_THREADS": 1,
+  "VECLIB_MAXIMUM_THREADS": 1,
+  "MKL_NUM_THREADS": 1,
+  "NUMEXPR_NUM_THREADS": 1,
+  "reason": "Avoid nested 8-thread BLAS oversubscription; compute scheduling only.",
+  "deterministic_subset_default_threads_sha256": "4036d525e922aedf76a4c7d263ba851be392b96ad541567b32b0cdb850bf1750",
+  "deterministic_subset_one_thread_sha256": "4036d525e922aedf76a4c7d263ba851be392b96ad541567b32b0cdb850bf1750"
+}

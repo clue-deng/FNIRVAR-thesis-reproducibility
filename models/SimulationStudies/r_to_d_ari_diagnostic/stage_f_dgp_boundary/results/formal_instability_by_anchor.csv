@@ -1,0 +1,8 @@
+anchor,n_assigned,n_invalid_unstable,invalid_rate,n_valid
+S0,20,0,0.0,20
+S1,20,1,0.05,19
+S2,20,1,0.05,19
+S3,20,2,0.1,18
+S4,20,3,0.15,17
+loading_scale_negative_gap,20,0,0.0,20
+loading_scale_positive_gap,20,0,0.0,20

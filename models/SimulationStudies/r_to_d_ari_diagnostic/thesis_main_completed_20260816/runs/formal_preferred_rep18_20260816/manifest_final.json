@@ -1,0 +1,41 @@
+{
+  "run_id": "formal_preferred_20260816",
+  "replication": 18,
+  "structural_seed": 3367057627,
+  "seed_tree": {
+    "master_seed": 20260727,
+    "structural_seed": 3367057627,
+    "network_seed": 453178626,
+    "factor_seed": 4188024474,
+    "gmm_seed": 266067264
+  },
+  "gmm_seed": 266067264,
+  "r_grid": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "branches": [
+    "primary_fixed_K",
+    "robustness_K_equals_d_hat"
+  ],
+  "origin_limit": 499,
+  "n_origins_canonical": 499,
+  "expected_rows": 8982,
+  "actual_spectral_radius": 0.9191845537859015,
+  "is_stationary": true,
+  "phi_sha256": "766149afb7bc6e3c761e5556b1ff4ed08ac3f06c57b21ab3890279b0f06adb1f",
+  "omega_sha256": "2769c885faed7eeb65771bb3d6502052450861ee548f8c8bfe495c20c8f2cc1d",
+  "status": "completed",
+  "actual_rows": 8982,
+  "status_counts": {
+    "ok": 8982
+  },
+  "origin_results_sha256": "334dd2c58b4e0ec2d4dc53316f68a2e9331b02089326ee0277186c25236382dd"
+}

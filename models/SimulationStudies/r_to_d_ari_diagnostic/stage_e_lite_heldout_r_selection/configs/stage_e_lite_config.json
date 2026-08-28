@@ -1,0 +1,28 @@
+{
+  "experiment": "stage_e_lite_heldout_r_selection",
+  "design": "post_hoc_reanalysis_of_frozen_rows",
+  "source_experiment": "thesis_main_completed_20260816",
+  "creates_new_simulation": false,
+  "n_worlds": 20,
+  "r_grid": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "r_true": 5,
+  "K_true": 4,
+  "n_origins_total": 499,
+  "n_tuning_origins": 249,
+  "n_evaluation_origins": 250,
+  "split_rule": "chronological; first 249 forecast origins tuning, last 250 evaluation",
+  "mspe_aggregation": "ratio_of_sums: sum(squared_error_sum)/sum(squared_error_denominator)",
+  "ari_aggregation": "arithmetic mean over valid origins in the split",
+  "selection_metric": "tuning_mspe",
+  "tie_break": "smallest r; numeric tie recorded",
+  "near_tie_epsilon": [0.001, 0.005, 0.01, 0.02],
+  "near_tie_defined_on": "tuning_mspe",
+  "branches": {
+    "primary_fixed_K": "controlled diagnostic (K pinned to K_true)",
+    "robustness_K_equals_d_hat": "deployable released pipeline (K = d_hat)"
+  },
+  "primary_reporting_branch": "robustness_K_equals_d_hat",
+  "inference_unit": "structural_world",
+  "n_expected_rows_per_world": 8982,
+  "n_expected_rows_total": 179640
+}

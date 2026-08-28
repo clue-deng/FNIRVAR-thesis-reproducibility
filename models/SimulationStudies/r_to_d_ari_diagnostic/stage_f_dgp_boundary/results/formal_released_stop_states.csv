@@ -1,0 +1,13 @@
+anchor,released_stop_state,n_origin_rows,proportion
+S0,correct_fixed_point,10,0.1
+S0,wrong_fixed_point,90,0.9
+S1,correct_fixed_point,2,0.021052631578947368
+S1,wrong_fixed_point,93,0.9789473684210527
+S2,wrong_fixed_point,95,1.0
+S3,wrong_fixed_point,90,1.0
+S4,out_of_grid,45,0.5294117647058824
+S4,wrong_fixed_point,40,0.47058823529411764
+loading_scale_negative_gap,correct_fixed_point,27,0.27
+loading_scale_negative_gap,wrong_fixed_point,73,0.73
+loading_scale_positive_gap,correct_fixed_point,10,0.1
+loading_scale_positive_gap,wrong_fixed_point,90,0.9

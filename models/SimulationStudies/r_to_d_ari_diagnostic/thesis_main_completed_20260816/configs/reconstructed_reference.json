@@ -1,0 +1,28 @@
+{
+  "status": "reconstructed_repository_reference_cell",
+  "seed": 4436,
+  "num_factors": 5,
+  "num_estimated_factors": 5,
+  "l_F": 2,
+  "B": 4,
+  "p_in": 0.9,
+  "p_out": 0.1,
+  "num_common_shocks": 5,
+  "rho_F": 0.7,
+  "generative_model": "FNIRVAR",
+  "estimation_model": "FNIRVAR",
+  "lookback_window": 1000,
+  "first_prediction_day": 1000,
+  "T": 1500,
+  "N": 100,
+  "num_replicas": 1,
+  "embedding_method": "Pearson Correlation",
+  "d": 4,
+  "K": 4,
+  "nominal_VAR_multiplier": 0.9,
+  "symmetrize_phi": false,
+  "reference_output_candidates": {
+    "top_level": 1.874377,
+    "experiment28_07_25": 1.219445
+  }
+}

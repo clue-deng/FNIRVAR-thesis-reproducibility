@@ -1,0 +1,13 @@
+{
+  "historical_formal_screen": "A",
+  "historical_screen_source": "results/stage6_gate_decision.json (frozen, unchanged by this cleanup)",
+  "operational_decision": "no_go",
+  "credible_direction_signal_identified": false,
+  "qualifying_observable": "residual_variance_ratio",
+  "qualifying_observable_information_class": "K_agnostic",
+  "reason": "The sole formal survivor, residual_variance_ratio, is mechanically non-increasing in r for every one of the 500 replication-origin (20 reps x 25 origins) trajectories checked, because FactorAdjustment removes nested top-r PCA subspaces and residual variance cannot increase as more components are removed, for any dataset. Its full-grid mean curve (0.770 at r=1 down to 0.238 at r=9) is smooth across the entire range with no optimum, elbow, or sign reversal at r_true=5 -- see results/figures/figure4_primary_observable_curves.png. It therefore cannot locate the correct factor count; it can only report how much variance was discarded.",
+  "what_would_change_this": "A negative control confirming residual_variance_ratio is NOT similarly monotone under a DGP with no true low-rank factor structure (or a misspecified K_true), and/or a second independently pre-specified DGP setting showing the same classification, per execution-prompt section 13.",
+  "stage6_implemented": false,
+  "classification_result_unaltered": true,
+  "note": "This file is a post-result methodological audit of the formal screen's locating validity, added during the 2026-08-17 post-commit cleanup pass. It does not alter results/observable_signal_classification.csv or results/stage6_gate_decision.json, both of which remain the frozen, historically-correct record of the pre-specified rule."
+}

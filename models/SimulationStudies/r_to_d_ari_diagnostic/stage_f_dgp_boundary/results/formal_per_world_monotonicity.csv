@@ -1,0 +1,4 @@
+metric,ladder,n_complete_case_worlds,n_weakly_monotone_decreasing,fraction_weakly_monotone_decreasing,n_strictly_decreasing_steps,n_total_steps,note
+fixed_point_indicator,S0->S1->S2->S3->S4,15,13,0.8666666666666667,23,60,post-hoc descriptive; no significance test is attached
+basin_fraction,S0->S1->S2->S3->S4,15,14,0.9333333333333333,45,60,post-hoc descriptive; no significance test is attached
+end_to_end_success,S0->S1->S2->S3->S4,15,15,1.0,3,60,post-hoc descriptive; no significance test is attached

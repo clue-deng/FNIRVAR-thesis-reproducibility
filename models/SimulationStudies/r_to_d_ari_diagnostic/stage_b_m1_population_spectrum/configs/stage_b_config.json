@@ -1,0 +1,45 @@
+{
+  "N": 100,
+  "K_TRUE": 4,
+  "R_TRUE": 5,
+  "MASTER_SEED": 20260727,
+  "T_GRID": [
+    200,
+    500,
+    1000,
+    1500,
+    3000
+  ],
+  "T_MAX": 3000,
+  "BURNIN": 500,
+  "N_PATHS": 50,
+  "N_STRUCTURAL_REPLICATIONS": 20,
+  "BRANCHES_50PATH": [
+    "iid_marginal",
+    "var_stationary_start",
+    "var_zero_start",
+    "var_burnin_500"
+  ],
+  "worlds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ]
+}

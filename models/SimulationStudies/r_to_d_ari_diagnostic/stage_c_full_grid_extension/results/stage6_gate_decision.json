@@ -1,0 +1,8 @@
+{
+  "decision": "A",
+  "conditional_on_known_K4": false,
+  "direction_capable_observables": [
+    "residual_variance_ratio"
+  ],
+  "distance_only_observables": []
+}

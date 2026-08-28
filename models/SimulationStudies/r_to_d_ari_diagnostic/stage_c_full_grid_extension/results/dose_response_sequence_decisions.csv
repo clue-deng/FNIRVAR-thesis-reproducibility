@@ -1,0 +1,5 @@
+sequence,metric,expected_direction,monotone_supported,breaking_steps,fraction_replications_satisfying_full_order
+under_factor_contamination,UMP_Q_F_unique_purity,non_increasing,True,[],1.0
+under_community_recovery,U4_Q_C_capture,non_decreasing,True,[],0.75
+over_total_community_removal,Qextra_r_Q_C_capture_or_shared_energy,non_decreasing,True,[],1.0
+over_residual_community_geometry,U4_Q_C_capture,non_increasing,True,[],0.8

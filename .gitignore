@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.log
+reproduced_runs/
+reproduced_results/
+private_notes/

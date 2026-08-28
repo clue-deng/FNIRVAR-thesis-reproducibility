@@ -1,0 +1,6 @@
+observable,information_class,under_side_monotone,over_side_monotone,mirror_all_significant_consistent_direction,mirror_sign_frequency_ok_16_of_20,classification
+d_hat,K_agnostic,True,False,True,True,not_a_usable_correction_signal
+selected_excess_spectral_mass,K_agnostic,True,False,True,True,not_a_usable_correction_signal
+gap_4_5,K_informed,False,False,True,True,not_a_usable_correction_signal
+lambda4_over_edge,K_informed,False,False,False,True,not_a_usable_correction_signal
+residual_variance_ratio,K_agnostic,True,True,True,True,direction_capable
